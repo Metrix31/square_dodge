@@ -38,6 +38,7 @@ function loop() {
 
     if (!(p.right < e.left || p.left > e.right || p.bottom < e.top || p.top > e.bottom)) {
         alert("Game Over!");
+        s = 0;
         enemyY = 0;
         enemyX = Math.random() * 560;
     }
