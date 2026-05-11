@@ -17,8 +17,11 @@ document.addEventListener("keydown", e => {
 });
 
 function loop() {
-    if (s < 25) {
+    if (s < 10) {
         enemyY += 2.5;
+    }
+    else if (s < 25) {
+        enemyY += 4
     }
     else {
         enemyY += 5;
